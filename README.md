@@ -31,7 +31,7 @@ public function test_foo()
 }
 ```
 
-Even if it was warned that $t is an unused variable, please do not remove it.
+Even if it was warned that `$t` is an unused variable, please do not remove it.
 
 When `test_foo()` method has completed, `$t` variable is deleted by GC, timecop is turn off.
 
